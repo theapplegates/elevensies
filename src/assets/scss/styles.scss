@@ -1,0 +1,19 @@
+$color: #e9391f;
+
+html {
+  background-color: $color;
+}
+
+body {
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #fff;
+  color: $color;
+  transition: transform .2s;
+  display: grid;
+  grid-auto-flow: row;
+}
+
+input {
+  user-select: none;
+}
